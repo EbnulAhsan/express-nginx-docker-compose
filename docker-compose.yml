@@ -12,7 +12,7 @@ services:
     build:
       context: .
       dockerfile: Dockerfile
-    image: ebnulahsan/express-nginx-app:latest
+    image: ebnu/express-nginx-app:latest
     container_name: express-app
     environment:
       PORT: 5000
